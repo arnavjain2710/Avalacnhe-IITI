@@ -1,0 +1,50 @@
+.header-container {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f0f0f0;
+  padding: 10px;
+  border-bottom: 2px solid #ccc;
+}
+.header-container {
+  background-color: #1c1a1a; /* Change the background color as needed */
+  border-bottom: 2px solid #ccc; /* Change the text color as needed */
+  padding: 10px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%; /* Set width to 100% */
+  height: 2.5rem;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.team-name, .team-score, .vs {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.team-name {
+  flex: 1;
+}
+
+.scores-container {
+  display: flex;
+  align-items: center;
+}
+
+.team-score {
+  margin: 0 10px;
+  color: #007bff; /* or any color you prefer */
+}
+
+.vs {
+  margin: 0 15px;
+  color: #777;
+}
